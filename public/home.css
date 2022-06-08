@@ -1,0 +1,42 @@
+nav.navbar{
+    background-color: #ffffff;
+    width: 100%;
+    height:65px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px -5px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ 
+    
+}
+
+p.free{
+    width: 18px;
+    height: 18px;
+    margin-top: 8px;
+    margin-right: 5px;
+    border-radius: 50px;
+    background-color: #10B48F;
+    float: left;
+    
+}
+
+a.navbar-brand{
+ 
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: #10B48F;
+    cursor: pointer;
+
+
+}
+
+A.nav-link {
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: #F16A70;
+ 
+}
+
+
+
