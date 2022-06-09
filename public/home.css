@@ -16,7 +16,10 @@ p.free{
     border-radius: 50px;
     background-color: #10B48F;
     float: left;
-    
+}
+
+p.free{
+    background-color: #20a687;
 }
 
 a.navbar-brand{
@@ -26,9 +29,13 @@ a.navbar-brand{
     font-weight: 800;
     color: #10B48F;
     cursor: pointer;
-
-
 }
+
+a.navbar-brand:hover{
+    color: #20a687;
+}
+
+
 
 A.nav-link {
     font-size: 16px;
@@ -40,3 +47,6 @@ A.nav-link {
 
 
 
+div.nav-profile img{
+    width: 25px;
+}
