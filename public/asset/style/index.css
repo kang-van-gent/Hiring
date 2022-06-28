@@ -45,7 +45,7 @@ li.nav-item a:hover{
 
  
 
-a.profile img{
+.navbar img{
     width: 28px;
      
    
@@ -169,7 +169,7 @@ label.form-label{
 }
 
 input.form-control{
-  width: 310px;
+  width: 100%;
   height: 30px;
   border-radius: 5px;
   font-family: 'Mulish', sans-serif;
@@ -204,7 +204,7 @@ input.form-control:focus{
 
 
 .easy-basket-filter {
-  width: 300px;
+  width: 100%;
   margin-top: 50px;
   position: relative;
 }
@@ -393,17 +393,18 @@ div.card-body p{
 } */
 
  
-div.row{
+/* div.row{
   margin-left: 480px;
   margin-top: 50px;
-}
+} */
 
  
 img.logo-comp{
-  width: 110px;
-  height: 110px;
+  width: 125px;
+  height: 135px;
   border-radius: 10px;
   position: absolute;
+
 }
 
 div.card{
@@ -411,15 +412,15 @@ div.card{
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 8px;
   border: none;
   border-radius: 10px;
-  width: 400px;
-  height: 152px;
+  /* width: 400px;
+  height: 152px; */
   margin-bottom: 20px;
 }
 
 
-div.card-body{
+/* div.card-body{
   padding: 20px 20px 20px 20px  ;
-}
+} */
 
 h4.card-title{
   margin-left: 140px;
@@ -467,21 +468,15 @@ h6.card-text{
 
 
 div.card-text{
-  margin-left: 300px;
-  margin-top: 55px;
-  position: absolute;
- 
- 
+  width: 100%; 
   font-family: 'Mulish', sans-serif;
   font-weight: 500;
   font-size: 10px;
   color: #BBBBBB;
-
+  text-align: end;
  
 }
 
-
-  
 
 
 /* heart button */
@@ -489,19 +484,23 @@ div.card-text{
  
 
 .favorite-heart {
-  width: 30px;
-  height: 30px;
-  background-color: rgb(238, 238, 238);
-  margin-left: 335px;
-  border-radius: 50px;
-  cursor: pointer;
-  padding: 5px 5px 5px 5px;
- 
- 
+  width: 100%;
+  padding-left: 93%;
+}
+.favorite-work {
+  width: 100%;
+  padding-left: 95%;
 }
 
 i.material-icons{
  font-size: 20px;
+ width: 30px;
+ height: 30px;
+ background-color: rgb(238, 238, 238);
+ border-radius: 50px;
+ cursor: pointer;
+ padding: 5px 5px 5px 5px;
+
 }
 
 .unlike{
