@@ -13,7 +13,7 @@ a.navbar-brand{
   font-weight: 900;
   font-size: 25px;
   color: #10B48F;
-  margin-left: 40px;
+ 
 }
 
 a.navbar-brand:hover{
@@ -401,7 +401,7 @@ div.card-body p{
  
 img.logo-comp{
   width: 125px;
-  height: 135px;
+  height: 125px;
   border-radius: 10px;
   position: absolute;
 
@@ -510,3 +510,247 @@ color:#ccc;
 .like{
 color:#f00650;
 }
+
+
+
+
+
+
+
+
+/*  part profile */
+
+div.part-profile{
+ margin-left: 40px ;
+ margin-top: ;
+ width: 400px;
+ height: 630px;
+ background-color: white;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 8px;
+ border-radius: 20px;
+ 
+ 
+  
+}
+
+div.profile{
+ 
+  margin-left: 30px;
+}
+
+img.diamond1{
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+ 
+}
+
+img.diamond{
+  width: 18px;
+  height: 18px;
+  margin-bottom: 5px;
+
+}
+ 
+
+ h1.real-n{
+  margin-left: 85px;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  position: absolute;
+  color: #515151;
+ 
+  
+}
+
+p.age{
+  margin-left: 85px;
+  margin-top:40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  position: absolute;
+  color: #a8a8a8;
+    
+}
+
+ 
+
+
+
+/* 
+part img profile */
+
+.profile-picture-upload {
+  display: inline;
+ 
+  
+   
+}
+
+.imagePreview {
+  margin-top: 25px;
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-right: 10px;
+  position: absolute;
+   
+ 
+}
+
+.hidden {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left:  ;
+}
+
+button.action-button {
+  width: 100px;
+  height: 28px;
+  border: none;
+  background: none;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 8px;
+  margin-top: 68px;
+  margin-left:85px;
+  margin-right: 3px;
+ 
+  
+}
+
+button.action-button:hover {
+   background-color: #64ceb7;
+   color: white;
+}
+
+
+button.mode-upload {
+    color: white;
+    border-color: #b8daff;
+    background-color: #63DBC0;
+}
+
+button.mode-remove {
+    color: #ffffff;
+    border: 1px solid #e76771;
+    background-color: #e76771;
+  }
+ 
+
+ button.setting-p{
+  width: 140px;
+  height: 28px;
+  border: none;
+  background: none;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 8px; 
+ 
+  background-color:#EFEFEF ;
+  border-color: #EFEFEF; 
+  margin-top: 68px;
+  color: #07C693;
+
+ }
+
+ 
+  
+ div.en{
+  margin-top: 20px;
+  width: 338px;
+  height: 2px;
+  border-radius: 100px;
+  background-color: #EEEEEE;
+  text-align: center;
+
+ }
+
+
+
+
+ /* part-topic profile */
+
+button.btn-h-p-1{
+  width: 370px;
+  height: 30px;
+  background-color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: white;
+  border : none;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  color: #515151;
+  border-right: #209F8C 4px solid;
+  margin-top: 5px;
+  
+
+}
+
+a.btn-h-p:hover{
+  color: #515151;
+
+}
+
+button.btn-h-p-2{
+  width: 370px;
+  height: 35px;
+  background-color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: white;
+  border : none;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  color: #515151;
+  border-right: #ffffff 4px solid;
+  margin-top: 5px;
+  
+
+}
+
+a.btn-h-p:hover{
+  color: #515151;
+
+}
+
+
+
+p.btn-h-p{
+  width: 10px;
+  height: 20px;
+  background-color: #000000;
+}
+
+ h1.h-p{
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #515151;
+ }
+
+ p.subh-p{
+  
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #515151;
+ }
