@@ -59,9 +59,9 @@
                     <a class="nav-link active" aria-current="page" href="worker.html">Worker</a>
                 </li>
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="course.html">Course</a>
-                </li>
+                </li> -->
 
             </ul>
 
@@ -347,6 +347,14 @@
                         if (this.classList.contains("unlike"))
                             this.classList.toggle("like");
                         else this.classList.toggle("unlike");
+                    });
+            });
+
+        document.querySelectorAll(".card")
+            .forEach(function (el) {
+                el.addEventListener("click",
+                    function () {
+                        location.href = "./views/profile.html";
                     });
             });
 

@@ -60,9 +60,9 @@
                     <a class="nav-link active" aria-current="page" href="worker.html">Worker</a>
                 </li>
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="course.html">Course</a>
-                </li>
+                </li> -->
 
             </ul>
 
@@ -119,24 +119,18 @@
 
                                         <label for="exampleDataList" class="form-label">Salary</label>
 
-                                        <div class="easy-basket-filter">
+                                        <div class="input-group">
+                                            <input class="form-control" list="datalistOptions1" id="exampleDataList"
+                                                placeholder="Select">
+                                            <datalist id="datalistOptions1">
+                                                <option value="Less than">
+                                                <option value="Up to">
 
-                                            <div class="easy-basket-filter-info">
-                                                <p class="iLower"><input type="text" class="easy-basket-lower"
-                                                        value="10000" min="10000" max="80000" maxlength=8 />฿</p>
-                                                <p class="iUpper"><input type="text" class="easy-basket-upper"
-                                                        value="80000" min="10000" max="80000" maxlength=8 />฿</p>
-                                            </div>
-
-                                            <div class="easy-basket-filter-range">
-                                                <input type="range" class="lower range" step="any" min="10000"
-                                                    max="80000" value="10000" />
-                                                <input type="range" class="upper range" step="any" min="10000"
-                                                    max="80000" value="80000" />
-                                                <div class="fill"></div>
-                                            </div>
-
+                                            </datalist>
+                                            <input class="form-control" type="text" id="exampleDataList"
+                                                placeholder="Salary">
                                         </div>
+
 
                                         <div class="btn-srch">
 
@@ -377,6 +371,14 @@
                         if (this.classList.contains("unlike"))
                             this.classList.toggle("like");
                         else this.classList.toggle("unlike");
+                    });
+            });
+
+        document.querySelectorAll(".card")
+            .forEach(function (el) {
+                el.addEventListener("click",
+                    function () {
+                        location.href = "./views/career.html";
                     });
             });
 
