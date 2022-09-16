@@ -84,8 +84,9 @@ div.nav-right {
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 4px;
-  left: 0;
+  <<<<<<< HEAD top: 4px;
+  =======top: 0;
+  >>>>>>>7bdf78a2e21633b7e2ed1f795aeb1e896433880c left: 0;
   right: 0;
   bottom: 0;
   background-color: #ccc;
@@ -200,7 +201,10 @@ input.form-control:focus {
    
 } */
 
-
+div.content-main {
+  width: 100%;
+  margin: 0px;
+}
 
 
 .easy-basket-filter {
@@ -540,13 +544,19 @@ div.part-profile {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 8px;
   border-radius: 20px;
 
-
-
+  <<<<<<< HEAD
 }
 
 div.profile {
 
   margin-left: 30px;
+  =======
+}
+
+div.profile {
+  width: 100%;
+
+  >>>>>>>7bdf78a2e21633b7e2ed1f795aeb1e896433880c
 }
 
 img.diamond1 {
@@ -659,13 +669,14 @@ button.mode-remove {
 
 
 button.setting-p {
-  width: 140px;
-  height: 28px;
+  <<<<<<< HEAD width: 140px;
+  =======width: 100px;
+  >>>>>>>7bdf78a2e21633b7e2ed1f795aeb1e896433880c height: 28px;
   border: none;
   background: none;
   font-family: 'Mulish', sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   outline: 0;
   border-radius: 8px;
@@ -695,8 +706,9 @@ div.en {
 /* part-topic profile */
 
 button.btn-h-p-1 {
-  width: 370px;
-  height: 30px;
+  <<<<<<< HEAD width: 370px;
+  =======width: 100%;
+  >>>>>>>7bdf78a2e21633b7e2ed1f795aeb1e896433880c height: 30px;
   background-color: #000000;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -720,6 +732,7 @@ a.btn-h-p:hover {
 
 button.btn-h-p-2 {
   width: 370px;
+  width: 100%;
   height: 35px;
   background-color: #000000;
   font-family: 'Inter', sans-serif;
@@ -764,25 +777,4 @@ p.subh-p {
   font-weight: 500;
   font-size: 14px;
   color: #515151;
-}
-
-.carousel {
-  height: 70vh;
-}
-
-.carousel-inner {
-  height: 100%;
-}
-
-.carousel-item {
-  height: 100%;
-}
-
-.carousel-item img {
-
-  height: 100%;
-}
-
-.card {
-  cursor: pointer;
 }
